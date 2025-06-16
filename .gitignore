@@ -1,0 +1,19 @@
+# Ignorer l'environnement virtuel
+venv/
+
+# Ignorer les fichiers compilés Python
+__pycache__/
+*.pyc
+
+# Fichiers temporaires
+*.log
+*.tmp
+
+# Fichiers de configuration personnels
+config.json
+
+# Fichiers générés par Jupyter Notebook
+.ipynb_checkpoints/
+
+# Base de données SQLite
+*.sqlite3
