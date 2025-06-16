@@ -31,7 +31,7 @@ page = st.sidebar.radio("Aller vers :", ["🏠 Accueil", "📊 Visualisation", "
 # 🏠 Page d’accueil
 if page == "🏠 Accueil":
     st.markdown("<h1 style='text-align: center;'>🏡 Dashboard Immobilier - Maroc</h1>", unsafe_allow_html=True)
-    st.image("https://images.unsplash.com/photo-1600585154340-be6161a56a0c", use_column_width=True)
+    st.image("https://images.unsplash.com/photo-1600585154340-be6161a56a0c", use_container_width=True)
     st.markdown("""
     Bienvenue sur le tableau de bord immobilier 🏘️.  
     Explorez les données, visualisez les tendances et prédisez les prix.
